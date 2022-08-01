@@ -16,7 +16,7 @@ public class Program2 {
     public static void main(String[] args) throws ParseException {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         System.out.print("Enter department's name: ");
         String departmentName = sc.nextLine();
